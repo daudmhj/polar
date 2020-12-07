@@ -38,7 +38,6 @@ import polar.com.sdk.api.model.PolarAccelerometerData;
 import polar.com.sdk.api.model.PolarDeviceInfo;
 import polar.com.sdk.api.model.PolarExerciseEntry;
 import polar.com.sdk.api.model.PolarHrData;
-import polar.com.sdk.api.model.PolarOhrPPIData;
 import polar.com.sdk.api.model.PolarSensorSetting;
 
 public class AccActivity extends AppCompatActivity {
@@ -62,7 +61,7 @@ public class AccActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ppi);
+        setContentView(R.layout.activity_acc);
         // Notice PolarBleApi.ALL_FEATURES are enabled
         api = PolarBleApiDefaultImpl.defaultImplementation(this, PolarBleApi.ALL_FEATURES);
         api.setPolarFilter(false);
@@ -79,12 +78,6 @@ public class AccActivity extends AppCompatActivity {
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(100);
-
-        final Button back = this.findViewById(R.id.disconnect_button_acc);
-        back.setOnClickListener(v -> {
-            Intent intent = new Intent(AccActivity.this,MainActivity.class);
-            startActivity(intent);
-        });
 
         api.setApiLogger(s -> Log.d(TAG,s));
 
@@ -197,51 +190,6 @@ public class AccActivity extends AppCompatActivity {
             );
         });
 
-//        ppg.setOnClickListener(v -> {
-//            if(ppgDisposable == null) {
-//                ppgDisposable = api.requestPpgSettings(DEVICE_ID).toFlowable().flatMap((Function<PolarSensorSetting, Publisher<PolarOhrPPGData>>) polarPPGSettings -> api.startOhrPPGStreaming(DEVICE_ID,polarPPGSettings.maxSettings())).subscribe(
-//                        polarOhrPPGData -> {
-//                            for( PolarOhrPPGData.PolarOhrPPGSample data : polarOhrPPGData.samples ){
-//                                Log.d(TAG,"    ppg0: " + data.ppg0 + " ppg1: " + data.ppg1 + " ppg2: " + data.ppg2 + "ambient: " + data.ambient);
-//                                handler.postDelayed(new Runnable() {
-//                                    @Override
-//                                    public void run() {
-//                                        //Do something after 500ms
-//                                        series.appendData(new DataPoint(lastX++, data.ppg0), true, 100);
-//                                        datacsv.append("\n"+data.ppg0+","+data.ppg1+","+data.ppg2+","+data.ambient);
-//                                    }
-//                                }, 500);
-//                            }
-//                        },
-//                        throwable -> Log.e(TAG,""+throwable.getLocalizedMessage()),
-//                        () -> Log.d(TAG,"complete")
-//                );
-//            } else {
-//                ppgDisposable.dispose();
-//                ppgDisposable = null;
-//            }
-//        });
-
-//        ppi.setOnClickListener(v -> {
-//            if(ppiDisposable == null) {
-//                ppiDisposable = api.startOhrPPIStreaming(DEVICE_ID).observeOn(AndroidSchedulers.mainThread()).subscribe(
-//                        ppiData -> {
-//                            for(PolarOhrPPIData.PolarOhrPPISample sample : ppiData.samples) {
-//                                Log.d(TAG, "ppi: " + sample.ppi
-//                                        + " blocker: " + sample.blockerBit + " errorEstimate: " + sample.errorEstimate);
-//                                series.appendData(new DataPoint(lastX++, sample.ppi), true, 100);
-//                                datacsv.append("\n"+sample.ppi+","+sample.blockerBit+","+sample.errorEstimate);
-//                            }
-//                        },
-//                        throwable -> Log.e(TAG,""+throwable.getLocalizedMessage()),
-//                        () -> Log.d(TAG,"complete")
-//                );
-//            } else {
-//                ppiDisposable.dispose();
-//                ppiDisposable = null;
-//            }
-//        });
-
         acc.setOnClickListener(v -> {
             if(accDisposable == null) {
                 accDisposable = api.requestAccSettings(DEVICE_ID).toFlowable().flatMap((Function<PolarSensorSetting, Publisher<PolarAccelerometerData>>) settings -> {
@@ -308,7 +256,7 @@ public class AccActivity extends AppCompatActivity {
             Uri path = FileProvider.getUriForFile(context, "polar.com.androidblesdk.fileprovider", filelocation);
             Intent fileIntent = new Intent(Intent.ACTION_SEND);
             fileIntent.setType("text/csv");
-            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Data");
+            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Dataacc_"+formattedDate);
             fileIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             fileIntent.putExtra(Intent.EXTRA_STREAM, path);
             startActivity(Intent.createChooser(fileIntent, "Send mail"));
@@ -317,4 +265,5 @@ public class AccActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
 }

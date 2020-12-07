@@ -78,12 +78,6 @@ public class PpgActivity extends AppCompatActivity {
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(100);
 
-        final Button back = this.findViewById(R.id.disconnect_button_acc);
-        back.setOnClickListener(v -> {
-            Intent intent = new Intent(PpgActivity.this,MainActivity.class);
-            startActivity(intent);
-        });
-
         api.setApiLogger(s -> Log.d(TAG,s));
 
         Log.d(TAG,"version: " + PolarBleApiDefaultImpl.versionInfo());
@@ -286,7 +280,7 @@ public class PpgActivity extends AppCompatActivity {
             Uri path = FileProvider.getUriForFile(context, "polar.com.androidblesdk.fileprovider", filelocation);
             Intent fileIntent = new Intent(Intent.ACTION_SEND);
             fileIntent.setType("text/csv");
-            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Data");
+            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Datappg_"+formattedDate);
             fileIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             fileIntent.putExtra(Intent.EXTRA_STREAM, path);
             startActivity(Intent.createChooser(fileIntent, "Send mail"));

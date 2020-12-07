@@ -1,17 +1,17 @@
-polar/com/androidblesdk/BuildConfig.java
- polar.com.androidblesdk.BuildConfig
 polar/com/androidblesdk/AccActivity.java
  polar.com.androidblesdk.AccActivity
  polar.com.androidblesdk.AccActivity$1
 polar/com/androidblesdk/HrActivity.java
  polar.com.androidblesdk.HrActivity
  polar.com.androidblesdk.HrActivity$1
-polar/com/androidblesdk/PpiActivity.java
- polar.com.androidblesdk.PpiActivity
- polar.com.androidblesdk.PpiActivity$1
 polar/com/androidblesdk/PpgActivity.java
  polar.com.androidblesdk.PpgActivity
  polar.com.androidblesdk.PpgActivity$1
  polar.com.androidblesdk.PpgActivity$2
+polar/com/androidblesdk/BuildConfig.java
+ polar.com.androidblesdk.BuildConfig
 polar/com/androidblesdk/MainActivity.java
  polar.com.androidblesdk.MainActivity
+polar/com/androidblesdk/PpiActivity.java
+ polar.com.androidblesdk.PpiActivity
+ polar.com.androidblesdk.PpiActivity$1

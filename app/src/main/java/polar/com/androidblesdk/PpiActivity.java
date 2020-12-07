@@ -62,9 +62,9 @@ public class PpiActivity extends AppCompatActivity {
         api = PolarBleApiDefaultImpl.defaultImplementation(this, PolarBleApi.ALL_FEATURES);
         api.setPolarFilter(false);
 
-        final Button autoConnect = this.findViewById(R.id.autoconnect_button_acc);
-        final Button disconnect = this.findViewById(R.id.disconnect_button_acc);
-        final Button ppi = this.findViewById(R.id.button_acc);
+        final Button autoConnect = this.findViewById(R.id.autoconnect_button_ppi);
+        final Button disconnect = this.findViewById(R.id.disconnect_button_ppi);
+        final Button ppi = this.findViewById(R.id.button_ppi);
 
         GraphView graph = (GraphView) findViewById(R.id.graph);
         series = new LineGraphSeries<>();
@@ -74,12 +74,6 @@ public class PpiActivity extends AppCompatActivity {
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(100);
-
-        final Button back = this.findViewById(R.id.disconnect_button_acc);
-        back.setOnClickListener(v -> {
-            Intent intent = new Intent(PpiActivity.this,MainActivity.class);
-            startActivity(intent);
-        });
 
         api.setApiLogger(s -> Log.d(TAG,s));
 
@@ -280,7 +274,7 @@ public class PpiActivity extends AppCompatActivity {
             Uri path = FileProvider.getUriForFile(context, "polar.com.androidblesdk.fileprovider", filelocation);
             Intent fileIntent = new Intent(Intent.ACTION_SEND);
             fileIntent.setType("text/csv");
-            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Data");
+            fileIntent.putExtra(Intent.EXTRA_SUBJECT, "Datappi_"+formattedDate);
             fileIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             fileIntent.putExtra(Intent.EXTRA_STREAM, path);
             startActivity(Intent.createChooser(fileIntent, "Send mail"));

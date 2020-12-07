@@ -37,14 +37,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/autoconnect_button_acc"
+                android:id="@+id/autoconnect_button_ppi"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Connect" />
 
             <Button
-                android:id="@+id/button_acc"
+                android:id="@+id/button_ppi"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="Not Ready" />
@@ -70,14 +70,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/disconnect_button_acc"
+                android:id="@+id/disconnect_button_ppi"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Disconnect" />
 
             <Button
-                android:id="@+id/export_button_acc"
+                android:id="@+id/export_button_ppi"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:onClick="exportppi"
