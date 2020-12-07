@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:2:1-17:12
+MERGED from [polar-protobuf-release.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\90bd7e76f1bf52d46635222d61546d3e\polar-protobuf-release\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\ef36b9fe8f75fb0e683e431dae022455\rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2fd1badfe235a86c9c4f24dc039376c6\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b703eeb50455644a9f19e020c78f6a7d\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\0c19fdd807c306dfd21cf072d31f49fc\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\bd5453cae97d20f98ac073be86f4de3f\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2b701ae5ddd88240760608cc768e9784\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\31b24ea2eadae461fd63b1ffead369c6\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\91a417b558c859a0eac369818706bb76\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b5a1b086f5f1cb641bc0eaedaf84b95f\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\abe20aa3392e86f8873da1ec2a4b1213\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b7997940a8f4a03292b220b77b63affe\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\6a75fc164d20e893ff704b8f5fc71219\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\3ebca0af94afd47abe917c2fb4525dc0\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:1-73:12
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:5:5-68
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:11:5-68
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:6:5-74
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:13:5-74
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:14:5-81
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:9:5-71:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b703eeb50455644a9f19e020c78f6a7d\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b703eeb50455644a9f19e020c78f6a7d\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+	android:supportsRtl
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:15:9-40
+activity#polar.com.androidblesdk.MainActivity
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:screenOrientation
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:18:13-49
+	android:configChanges
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:17:13-48
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:22:27-74
+activity#polar.com.androidblesdk.HrActivity
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:screenOrientation
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:27:13-49
+	android:configChanges
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:25:19-45
+activity#polar.com.androidblesdk.PpgActivity
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:screenOrientation
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:36:13-49
+	android:configChanges
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:34:19-46
+activity#polar.com.androidblesdk.PpiActivity
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:screenOrientation
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:44:13-48
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:43:19-46
+activity#polar.com.androidblesdk.AccActivity
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:screenOrientation
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:54:13-49
+	android:configChanges
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:53:13-48
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:52:19-46
+provider#android.support.v4.content.FileProvider
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:62:9-70:20
+	android:grantUriPermissions
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:65:13-47
+	android:authorities
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:64:13-71
+	android:exported
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:63:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:67:13-69:57
+	android:resource
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:69:17-55
+	android:name
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml:68:17-67
+uses-sdk
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:7:5-9:41
+MERGED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:7:5-9:41
+MERGED from [polar-protobuf-release.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\90bd7e76f1bf52d46635222d61546d3e\polar-protobuf-release\AndroidManifest.xml:7:5-9:41
+MERGED from [polar-protobuf-release.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\90bd7e76f1bf52d46635222d61546d3e\polar-protobuf-release\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\ef36b9fe8f75fb0e683e431dae022455\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\ef36b9fe8f75fb0e683e431dae022455\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2fd1badfe235a86c9c4f24dc039376c6\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2fd1badfe235a86c9c4f24dc039376c6\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b703eeb50455644a9f19e020c78f6a7d\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b703eeb50455644a9f19e020c78f6a7d\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\4c2a1e2b258a1fd863f3582ffbd20255\graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\5cf5acdf3da09b087263a7119a17e469\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\0c19fdd807c306dfd21cf072d31f49fc\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\0c19fdd807c306dfd21cf072d31f49fc\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\bd5453cae97d20f98ac073be86f4de3f\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\bd5453cae97d20f98ac073be86f4de3f\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2b701ae5ddd88240760608cc768e9784\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\2b701ae5ddd88240760608cc768e9784\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\31b24ea2eadae461fd63b1ffead369c6\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\31b24ea2eadae461fd63b1ffead369c6\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\91a417b558c859a0eac369818706bb76\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\91a417b558c859a0eac369818706bb76\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\e398ed70892f78b60daefba521af5cae\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b5a1b086f5f1cb641bc0eaedaf84b95f\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b5a1b086f5f1cb641bc0eaedaf84b95f\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\abe20aa3392e86f8873da1ec2a4b1213\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\abe20aa3392e86f8873da1ec2a4b1213\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b7997940a8f4a03292b220b77b63affe\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\b7997940a8f4a03292b220b77b63affe\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\6a75fc164d20e893ff704b8f5fc71219\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\6a75fc164d20e893ff704b8f5fc71219\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\3ebca0af94afd47abe917c2fb4525dc0\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\3ebca0af94afd47abe917c2fb4525dc0\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		ADDED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\project\android\PolarMiBand\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [polar-ble-sdk.aar] C:\Users\DAUD\.gradle\caches\transforms-2\files-2.1\8b15705f484dc915ecdef618d93b6e34\polar-ble-sdk\AndroidManifest.xml:15:22-76
